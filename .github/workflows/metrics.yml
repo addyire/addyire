@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: isocal.svg
           token: ${{ secrets.METRICS_TOKEN }}
           # Options
           user: addyire
@@ -20,6 +21,12 @@ jobs:
           config_timezone: America/New_York
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: isocal.svg  
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: ""
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_token: "${{secrets.SPOTIFY_CLIENT_ID}}, ${{secrets.SPOTIFY_CLIENT_SECRET}}, ${{secrets.SPOTIFY_REFRESH_TOKEN}}"
@@ -27,6 +34,13 @@ jobs:
           plugin_music_limit: 3
           plugin_music_time_range: short
           plugin_music_top_type: tracks
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: isocal.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: addyire
+          template: classic
+          base: ""
+          config_timezone: America/New_York
           plugin_lines: yes
           plugin_lines_sections: history
-
