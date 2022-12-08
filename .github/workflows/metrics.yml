@@ -4,6 +4,8 @@ on:
   schedule: [{cron: "0 0 * * *"}]
   # Manually Run
   workflow_dispatch:
+  # On Commit
+  push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -12,6 +14,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          use_prebuilt_image: yes
           filename: isocal.svg
           token: ${{ secrets.METRICS_TOKEN }}
           # Options
@@ -23,7 +26,8 @@ jobs:
           plugin_isocalendar_duration: half-year
       - uses: lowlighter/metrics@latest
         with:
-          filename: isocal.svg  
+          filename: music.svg  
+          use_prebuilt_image: yes
           token: ${{ secrets.METRICS_TOKEN }}
           template: classic
           base: ""
@@ -36,7 +40,8 @@ jobs:
           plugin_music_top_type: tracks
       - uses: lowlighter/metrics@latest
         with:
-          filename: isocal.svg
+          filename: lines.svg
+          use_prebuilt_image: yes
           token: ${{ secrets.METRICS_TOKEN }}
           user: addyire
           template: classic
