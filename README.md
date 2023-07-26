@@ -2,13 +2,6 @@
 
 I'm a self-taught Computer Scientist studying at Penn State University Park as a freshman. My skills are centered around TypeScript, with a proficient understanding of React, Three.JS, and Express.
 
-### 👨‍💻 Github Activity
-
-<p align="left">
-<img src="isocal.svg">
-<img src="lines.svg" height="200">
-</p>
-
 ### 🤝 Connect
 
 <p align="center">
