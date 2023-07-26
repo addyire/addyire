@@ -5,7 +5,7 @@ I'm a self-taught Computer Scientist studying at Penn State University Park as a
 ### 🤝 Connect
 
 <p align="center">
-<a href="www.linkedin.com/in/addisonireland"><img src='https://img.shields.io/badge/Addy_Ireland-100000?style=for-the-badge&logo=Linkedin&logoColor=white&labelColor=0072B1&color=0072B1&'
+<a href="https://www.linkedin.com/in/addisonireland"><img src='https://img.shields.io/badge/Addy_Ireland-100000?style=for-the-badge&logo=Linkedin&logoColor=white&labelColor=0072B1&color=0072B1&'
 width="50%" >
 </a>
 </p>
