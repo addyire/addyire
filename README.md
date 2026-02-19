@@ -1,9 +1,5 @@
 # 👋 I'm Addy Ireland 
 
-I'm a self-taught Computer Scientist studying at Penn State. My skills are centered around TypeScript, with a proficient understanding of React, Three.JS, and Express.
-
-### 🤝 Connect
-
 <p align="center">
 <a href="https://www.linkedin.com/in/addisonireland"><img src='https://img.shields.io/badge/Addy_Ireland-100000?style=for-the-badge&logo=Linkedin&logoColor=white&labelColor=0072B1&color=0072B1&'
 width="50%" >
